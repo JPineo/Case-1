@@ -1,84 +1,89 @@
+
 INFO 6540
 Elvira Mitraka
 JP Pineo
 B00522848
-Group assignment-case 1
+Group assignment-Case 1
 April 10th, 2018
 
 Case 1: Professor Periwinkle 
-
-Data collection: 
-
-What types of data will you collect, create, link to, acquire and/or record?
-
-What file formats will your data be collected in? Will these formats allow for data re-use, sharing and long-term access to the data?
-
-What conventions and procedures will you use to structure, name and version-control your files to help you and others better understand how your data are organized?
-
-
-Documentation and Metadata: 
-
- What documentation will be needed for the data to be read and interpreted correctly in the future?
-
-How will you make sure that documentation is created or captured consistently throughout your project?
-
-If you are using a metadata standard and/or tools to document and describe your data, please list here.
-
-
-
-Storage and backup: 
-
-What are the anticipated storage requirements for your project, in terms of storage space (in megabytes, gigabytes, terabytes, etc.) and the length of time you will be storing it?
-
-How and where will your data be stored and backed up during your research project?
-
- How will the research team and other collaborators access, modify, and contribute data throughout the project?
-
-
-Preservation: 
-
-Where will you deposit your data for long-term preservation and access at the end of your research project?
-
--Indicate how you will ensure your data is preservation ready. Consider preservation-friendly file formats, ensuring file integrity, anonymization and de-identification, inclusion of supporting documentation.
-
-
-
-Sharing and reuse: 
-
-What data will you be sharing and in what form? (e.g. raw, processed, analyzed, final).
-
- Have you considered what type of end-user license to include with your data?
-
- What steps will be taken to help the research community know that your data exists?
-
-
-Responsibilities and resources: 
-
- Identify who will be responsible for managing this project's data during and after the project and the major data management tasks for which they will be responsible.
-
-
-How will responsibilities for managing data activities be handled if substantive changes happen in the personnel overseeing the project's data, including a change of Principal Investigator?
-
-
-What resources will you require to implement your data management plan? What do you estimate the overall cost for data management to be?
-
-
-Ethics and legal compliance: 
-
- If your research project includes sensitive data, how will you ensure that it is securely managed and accessible only to approved members of the project?
-
-If applicable, what strategies will you undertake to address secondary uses of sensitive data?
-
- How will you manage legal, ethical, and intellectual property issues?
-
-***All of these are currently being answered on assistant portage net work.***
-
 
 References: 
 
 Question 6: 2018. Dublin Core Metadata Element Set, Version 1.1: Reference Description. Dublin Core Metadata Initiative. http://dublincore.org/documents/dces/
 
 Question 17: 2018. Data Manager Salary (Canada). Pay Scale. https://www.payscale.com/research/CA/Job=Data_Manager/Salary
+
+
+MY PLAN (PORTAGE TEMPLATE)
+
+DATA COLLECTION
+
+WHAT TYPES OF DATA WILL YOU COLLECT, CREATE, LINK TO, ACQUIRE AND/OR RECORD?
+I will be acquiring raw spatial data, images, and text. Data from the public will be linked because it will come into play later. Also, data gathered by the remotely-operated marine vehicles (ROMV), tags that are surgically implanted in captured and released animals, static sensor buoys that measure ocean conditions, and communication lines that passively listen for signals from animal tags. 
+
+WHAT FILE FORMATS WILL YOUR DATA BE COLLECTED IN? WILL THESE FORMATS ALLOW FOR DATA RE-USE, SHARING AND LONG-TERM ACCESS TO THE DATA?
+The data collected will be turned into NetCDF formatted files. It will be converted and kept in this format. 
+
+WHAT CONVENTIONS AND PROCEDURES WILL YOU USE TO STRUCTURE, NAME AND VERSION-CONTROL YOUR FILES TO HELP YOU AND OTHERS BETTER UNDERSTAND HOW YOUR DATA ARE ORGANIZED?
+GitKraken, it has a useable version control structure that anyone can use. It will also help others understand where my data is coming from and why it went where it went. I will name the files according to what kind of content is being used in them, and something that is relevant to the study. 
+
+DOCUMENTATION AND METADATA
+WHAT DOCUMENTATION WILL BE NEEDED FOR THE DATA TO BE READ AND INTERPRETED CORRECTLY IN THE FUTURE?
+I would use Dublin Core metadata lay out, it gives metadata at a basic level and easy to read lay out. I will need the information about where and when the data was collected, the importance of each piece of data so that I know how to create the metadata record and so that it will not be over looked. This will help to keep the information that will be needed in the future will be easy to access and look over, so the researchers will not waste time. 
+
+HOW WILL YOU MAKE SURE THAT DOCUMENTATION IS CREATED OR CAPTURED CONSISTENTLY THROUGHOUT YOUR PROJECT?
+I will take the time after each section of information is done the same way in each document, I will also set up a standard way of creating each document to create consistency. I will go through each piece of documentation and create what I need for each one before creating an official document. I will use GitKraken to up load each document as I work on them so that I can see each version and how things were done so I can stay consistent. 
+
+IF YOU ARE USING A METADATA STANDARD AND/OR TOOLS TO DOCUMENT AND DESCRIBE YOUR DATA, PLEASE LIST HERE.
+Since I will be using Dublin Core, I will be using their way of setting up metadata I have attached the link to the different elements that will be needed to create the metadata for Dr. Periwinkle. http://dublincore.org/documents/dces/. Dublin care is machine readable. 
+
+STORAGE AND BACKUP
+WHAT ARE THE ANTICIPATED STORAGE REQUIREMENTS FOR YOUR PROJECT, IN TERMS OF STORAGE SPACE (IN MEGABYTES, GIGABYTES, TERABYTES, ETC.) AND THE LENGTH OF TIME YOU WILL BE STORING IT?
+Even though Dr. Periwinkle is already using Dropbox as her place of storage, I would like to shift it over to a cloud storage space that is not as limited as Dropbox can be, most of the stage will be in megabytes, roughly 500MB a day.  Also, because Dr. Periwinkle wants to be able to have her data be open to anyone who wants access to it, I think that best cloud sharing option would be Google Drive, even though it does require login credentials for those trying to access it, I feel this would be better and more secure way because then she could have some control over who is accessing it. Also, the Google Drive, can have more than file shared within it, so it can have as many folders as needed and there can be one for each part of her research. This would also allow for incoming and outgoing students to share their data, and when they leave it is still there on the drive and there will always be access to it. Since this is an ongoing study, there needs to be an unlimited amount of time that Dr. Periwinkle and her team needs to have access to a storage system and Google Drive has this capability. 
+
+HOW AND WHERE WILL YOUR DATA BE STORED AND BACKED UP DURING YOUR RESEARCH PROJECT?
+By using Google Drive, it will automatically back up and save the work that is being worked on. Also, using an external hard drive will keep back-ups of everything being worked on, and it will be updated once a week to include the new information being added that week. 
+
+HOW WILL THE RESEARCH TEAM AND OTHER COLLABORATORS ACCESS, MODIFY, AND CONTRIBUTE DATA THROUGHOUT THE PROJECT?
+Using Google Drive as the storage device, is helpful for this wanting to add or change things in the documentations, because it allows for this option. As well, it shows who was the last one to update something and you can see what and where they updated/changed, and it automatically saves so data and other information will not be lost if something was to happen to the computer/laptop they were working on. 
+
+PRESERVATION
+WHERE WILL YOU DEPOSIT YOUR DATA FOR LONG-TERM PRESERVATION AND ACCESS AT THE END OF YOUR RESEARCH PROJECT?
+Dr. Periwinkle's data at the end of the study will be given to the Department of Fisheries and Oceans Canada, there the data will be kept for long term storage and be accessible to anyone that may want access to the data, they will just have to request it from them. They will be given the analyzed data as well as the raw data that has been collected. 
+
+INDICATE HOW YOU WILL ENSURE YOUR DATA IS PRESERVATION READY. CONSIDER PRESERVATION-FRIENDLY FILE FORMATS, ENSURING FILE INTEGRITY, ANONYMIZATION AND DE-IDENTIFICATION, INCLUSION OF SUPPORTING DOCUMENTATION.
+Most of the documents are in NetCDF format, which is fine for the data to be kept in because this format is useable in databases. However, there all the data will be converted into a text document, and these changes will be noted, and if there is any data lost in the conversion, it will be noted, and the data that is missing will be noted as to what was lost. That is also why the NetCDF format will be kept, in case something is lost in the shifting over to a text document. 
+
+SHARING AND REUSE
+WHAT DATA WILL YOU BE SHARING AND IN WHAT FORM? (E.G. RAW, PROCESSED, ANALYZED, FINAL).
+I will be sharing the data collected from the digitally by remotely-operated marine vehicles (ROMV), tags that are surgically implanted in captured and released animals, static sensor buoys that measure ocean conditions, and communication lines that passively listen for signals from animal tags.
+This way other researchers can look at the raw data and see where the data analyzed comes from. Also, that way other researchers can use it how they want to for their studies. They might be focused on a different aspect than Dr. Periwinkle. 
+We will be sharing the final data as well because it will help show where all the information went to and how it supports Dr. Periwinkle research and findings. 
+
+HAVE YOU CONSIDERED WHAT TYPE OF END-USER LICENSE TO INCLUDE WITH YOUR DATA?
+The end user license to include the with Dr. Periwinkle's data will be a simple Open Data Commons licenses, specifically Attribution License (OCD-By), Attribution for the data/databases. This way it opens to all to use and how they wish to use the data that had been collected by Dr. Periwinkle and her research team.
+WHAT STEPS WILL BE TAKEN TO HELP THE RESEARCH COMMUNITY KNOW THAT YOUR DATA EXISTS?
+What will be done to help let others in the research field know about Dr. Periwinkle's data will be to send out emails to institutes and programs that have similar research projects and come from the same field even if they do not currently have any research projects on the go. 
+
+RESPONSIBILITIES AND RESOURCES
+IDENTIFY WHO WILL BE RESPONSIBLE FOR MANAGING THIS PROJECT'S DATA DURING AND AFTER THE PROJECT AND THE MAJOR DATA MANAGEMENT TASKS FOR WHICH THEY WILL BE RESPONSIBLE.
+During the duration of the study the data will be kept with our company and small group of three people will be assigned to look after the data and to make sure that is it kept up to date with what Dr. Periwinkle's team is finding and making sure that it is organized and saved in the appropriate files. This team will work closely with Dr. Periwinkle so that they understand the data being collected and help with the sorting of it. 
+The data collected will be handed over to the Department of Fisheries and Oceans after the study has been completed. They will keep the data that has been collected for their own use and for the public or other for other marine groups to have access to it and use it if they wish. 
+
+HOW WILL RESPONSIBILITIES FOR MANAGING DATA ACTIVITIES BE HANDLED IF SUBSTANTIVE CHANGES HAPPEN IN THE PERSONNEL OVERSEEING THE PROJECT'S 
+DATA, INCLUDING A CHANGE OF PRINCIPAL INVESTIGATOR?
+Since Dr. Periwinkle does had grad students working for her on this project, the data that they collect will be added into the Google Drive documents and the data that they find will be added to the external hard drive and will be sorted by the team of 3 data managers from our company as so that when they leave their data is still with the study. 
+
+WHAT RESOURCES WILL YOU REQUIRE TO IMPLEMENT YOUR DATA MANAGEMENT PLAN? WHAT DO YOU ESTIMATE THE OVERALL COST FOR DATA MANAGEMENT TO BE?
+The estimate for this plan I suspect will be about $907, 250.00 in a five-year time span. This includes the cost of the team of 3 data managers, external hard drives, and the cost of storing the those hard drives off site. 
+
+ETHICS AND LEGAL COMPLIANCE
+
+HOW WILL YOU MANAGE LEGAL, ETHICAL, AND INTELLECTUAL PROPERTY ISSUES?
+Since Dr. Periwinkle has grad students working for her and some of the data they have collected there would have to be a contract drawn up stating that the research and data they collect under Dr. Periwinkle and name this study saying that they consent to allowing others to use and store their collected data with the other data that has been collected, so that there are no discrepancies between Dr. Periwinkle and the grad students, and as well so that there are no discrepancies in the collected data, it will all be in one place. 
+
+
 
 
 
