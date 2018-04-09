@@ -73,10 +73,12 @@ If applicable, what strategies will you undertake to address secondary uses of s
 
 ***All of these are currently being answered on assistant portage net work.***
 
-References: 
-Question 6: http://dublincore.org/documents/dces/
 
-Question 17 : https://www.payscale.com/research/CA/Job=Data_Manager/Salary
+References: 
+
+Question 6: 2018. Dublin Core Metadata Element Set, Version 1.1: Reference Description. Dublin Core Metadata Initiative. http://dublincore.org/documents/dces/
+
+Question 17: 2018. Data Manager Salary (Canada). Pay Scale. https://www.payscale.com/research/CA/Job=Data_Manager/Salary
 
 
 
