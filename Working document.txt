@@ -7,17 +7,12 @@ Group assignment-case 1
 April 10th, 2018
 
 Case 1: Professor Periwinkle 
-References: 
-Question 6: 2018. Dublin Core Metadata Element Set, Version 1.1: Reference Description. Dublin Core Metadata Initiative. http://dublincore.org/documents/dces/
 
-Question 17: 2018. Data Manager Salary (Canada). Pay Scale. https://www.payscale.com/research/CA/Job=Data_Manager/Salary
+Data management plan for Dr. Periwinkle
 
-
-MY PLAN (PORTAGE TEMPLATE)
-DATA COLLECTION
 WHAT TYPES OF DATA WILL YOU COLLECT, CREATE, LINK TO, ACQUIRE AND/OR RECORD?
 
-Raw spatial data, images, and text will be collected from: remotely-operated marine vehicles (ROMV), tags that are surgically implanted in captured and released animals, static sensor buoys that measure ocean conditions, and communication lines that passively listen for signals from animal tags. Data from the public will be linked because it will come into play later.
+Raw spatial data, images, and text will be collected from: remotely-operated marine vehicles (ROMV), tags that are surgically implanted in captured and released animals, static sensor buoys that measure ocean conditions, and communication lines that passively listen for signals from animal tags. At a later date, data from the public will be connected as well.
 
 WHAT FILE FORMATS WILL YOUR DATA BE COLLECTED IN? WILL THESE FORMATS ALLOW FOR DATA RE-USE, SHARING AND LONG-TERM ACCESS TO THE DATA?
 
@@ -25,48 +20,44 @@ Collected data will be converted to NetCDF formatted files.
 
 WHAT CONVENTIONS AND PROCEDURES WILL YOU USE TO STRUCTURE, NAME AND VERSION-CONTROL YOUR FILES TO HELP YOU AND OTHERS BETTER UNDERSTAND HOW YOUR DATA ARE ORGANIZED?
 
-For version control, our team suggests using GitKraken as it is considered to be especially user friendly. GitKraken will also help others understand what data is being where it was put. The content files will be labeled according to what kind of content is being used in them, they will be labelled based upon specimen, location, and how and where it was collected from.   
+For version control, our team suggests using GitKraken as it is considered especially user friendly. GitKraken’s user friendly qualities extends to organization efforts as its design helps users understand where specific forms of data are being stored. The content files will be labeled according to what kind of content is being used in them. They will be labelled based upon specimen, location, and where it was collected from. For example: a piece of collected data from a tagged Blue shark, the label would read: Blue Shark, Yarmouth NS, tagged animal. 
 DOCUMENTATION AND METADATA
 WHAT DOCUMENTATION WILL BE NEEDED FOR THE DATA TO BE READ AND INTERPRETED CORRECTLY IN THE FUTURE?
 
-We recommend using Dublin Core metadata, because it gives preliminary and necessary metadata to ensure interoperability and is also easy to read. The data management team will need information about where and when the data was collected and the significance of each piece of data to ensure important parts are not overlooked. This will help the data management team to create the metadata records and to keep the information that will be needed in the future will be easy to access and look over, so the researchers will not waste time. 
+We recommend using Dublin Core metadata, because it gives preliminary and necessary metadata to ensure interoperability while being easy to read. To ensure no important parts are overlooked, the data management team will need information about where and when the data was collected and the significance of each piece of data. This will help the data management team create effective and consistent metadata records in order to keep the most necessary information and increase ease of access. 
 HOW WILL YOU MAKE SURE THAT DOCUMENTATION IS CREATED OR CAPTURED CONSISTENTLY THROUGHOUT YOUR PROJECT?
 
-After each important section of information is put into the metadata, our team will incorporate a secondary review process to ensure accuracy and consistency. For consistency, our team will create a standard method of document creation. The data managers will go through each documentation of data and create new document that is needed for each one before creating an official document. Our team will use GitKraken in this process to take advantage of its version control capabilities. Our team will upload each document as we work on them so that the changes from each version can be assessed for consistency with our created method for metadata. 
+After each important section of information is put into the metadata, our team will incorporate a secondary review process to ensure accuracy and consistency. For consistency, our team will create a standard method of document creation. The data managers will go through each data set and create a new document. This needs to be done before creating an official document. Our team will use GitKraken to take advantage of its version control capabilities. Our team will upload each document as we work on them so that the changes from each version can be assessed for consistency with our created method for metadata. 
 
 IF YOU ARE USING A METADATA STANDARD AND/OR TOOLS TO DOCUMENT AND DESCRIBE YOUR DATA, PLEASE LIST HERE.
 
-Our team recommend using Dublin Core for a metadata standard. 
+In part because it is machine readable, our team recommend using Dublin Core for a metadata standard. 
 
-Attached is a link to the different metadata elements that will be needed to create the metadata scheme for Dr. Periwinkle. http://dublincore.org/documents/dces/. Dublin Core is machine readable. 
+Attached is a link to the different metadata elements that will be needed to create the metadata scheme for Dr. Periwinkle. http://dublincore.org/documents/dces/. 
 STORAGE AND BACKUP
 WHAT ARE THE ANTICIPATED STORAGE REQUIREMENTS FOR YOUR PROJECT, IN TERMS OF STORAGE SPACE (IN MEGABYTES, GIGABYTES, TERABYTES, ETC.) AND THE LENGTH OF TIME YOU WILL BE STORING IT?
 
-We recommend moving Dr. Periwinkle’s data from Dropbox to another cloud storage platform with greater storage capabilities. This data storage needs to be capable of expanding by 500MB a day and other platforms are capable of this level of storage scalability. We recommend staying with a cloud storage method because of Dr. Periwinkle’s requirement to have the data open to anyone who desires to use it. For all these reasons, we recommend Google Drive. Although it requires login credentials which may hinder the open data goals of Dr. Periwinkle, our team recognizes that the added security of determining who has access to it this data is a worthy pay-off. 
+We recommend moving Dr. Periwinkle’s data from Dropbox to another cloud storage platform with greater storage capabilities. This data storage needs to be capable of expanding by 500MB a day and other cloud platforms are capable of this level of storage scalability. We recommend staying with a cloud storage method because Dr. Periwinkle’s requires her data to be open to anyone who desires to use it. For all these reasons, we recommend Google Drive as an appropriate solution. Although it requires login credentials, which may hinder the open data goals of Dr. Periwinkle, our team recognizes that the added security of determining who has access to this data is a worthy pay-off. 
 
-In Google Drive there can be multiple files and folders shared within a master folder, this would make collaborating multiple people on the research team easier. It will also allow each researcher and the grad student to have their own folder within the main research folder on Google Drive and they can add their own data into a file that is sharable and have as many folders as needed for different parts of the study.
+In Google Drive there can be multiple files and folders shared within a master folder, this would make collaborating multiple people on the research team easier. It will also allow each researcher and any grad students to have their own folder within the main research folder. Anyone can add their own data into a shareable file and have as many folders as needed for organizing different parts of their study.
 
 This format is appropriate considering the high volume of student-collected data contributing to Dr. Periwinkle’s collection. Because of the ever-changing nature of the relationship Dr. Periwinkle’s students have to her research goals, putting data in a cloud will allow any data that is collected to remain in the cloud even after students potentially leave. In addition, Dr. Periwinkle and her staff need consistent access to this storage system regardless of location and employment.
 
 HOW AND WHERE WILL YOUR DATA BE STORED AND BACKED UP DURING YOUR RESEARCH PROJECT?
 
-Google Drive automatically backs up and saves all work. For additional back up, external hard drives will be used and updated once a week to include any new data and information. Each eternal hard drive will be a 2TB, the external hard drives will be used to keep all the data and information that is collected and used in case something happens to the cloud storage. This will preserve everything.  
+Google Drive automatically backs up and saves all work. For additional back up, external hard drives will be used and updated once a week to include any new data and information. Each eternal hard drive will be 2TB and will be used to store all collected data and information as a failsafe in case the cloud storage experiences data loss.
 HOW WILL THE RESEARCH TEAM AND OTHER COLLABORATORS ACCESS, MODIFY, AND CONTRIBUTE DATA THROUGHOUT THE PROJECT?
 
-Collaborators can add or change aspects of their contributions in Google Drive. Google Drive automatically records who performed changes, what they changed, and when this occurred and make this information available to everyone using it.
+Collaborators can add or change aspects of their contributions in Google Drive. Google Drive automatically records who performed changes, what they changed and when, and makes this information available to everyone using it.
 
 WHERE WILL YOU DEPOSIT YOUR DATA FOR LONG-TERM PRESERVATION AND ACCESS AT THE END OF YOUR RESEARCH PROJECT?
 
-At the end of Dr. Periwinkle’s study, all data will be given to the Department of Fisheries and Oceans Canada (DFO) where it will be kept for long term storage. DFO will grant access to whoever needs this data through a simple request process. DFO will receive all raw and analyzed data.
+At the end of Dr. Periwinkle’s study, all data will be given to the Department of Fisheries and Oceans Canada (DFO) where it will be kept for long term storage. DFO will receive all raw and analyzed data. DFO will grant access to whoever needs this data through a simple request process. 
 
-Dr. Periwinkle's data at the end of the study will be given to the Department of Fisheries and Oceans Canada, there the data will be kept for long term storage and be accessible to anyone that may want access to the data, they will just have to request it from them. They will be given the analyzed data as well as the raw data that has been collected. 
 INDICATE HOW YOU WILL ENSURE YOUR DATA IS PRESERVATION READY. CONSIDER PRESERVATION-FRIENDLY FILE FORMATS, ENSURING FILE INTEGRITY, ANONYMIZATION AND DE-IDENTIFICATION, INCLUSION OF SUPPORTING DOCUMENTATION.
 
-Choosing to keep NetCDF as the format will aid goals of preservation as it is useable in most databases.
 
-Most of the documents are in NetCDF format, which is fine for the data to be kept in because this format is useable in databases .  
-
-However, there all the data will be converted into a text document, in case not all technology will be NetCDF readable. These changes will be noted, and if there is any data lost in the conversion, it will be noted, and the data that is missing will be noted as to what was lost. These changes will be noted in a word document by one of the members of the data management team members.  That is also why the NetCDF format will be kept, in case something is lost in the shifting over to a text document .  
+For preservation purposes, all data will be converted into a text document, in case difficulty arises from technology not being able to read NetCDF format. These changes will be noted, and if there is any data lost in the conversion it will be noted, and the data that is missing will be noted as to what was lost. These changes will be noted because all files will be kept in NetCDF format in addition to a word document. By storing the data in two formats, research members can compare the two files for discrepancies that indicate data loss.
 
 SHARING AND REUSE
 WHAT DATA WILL YOU BE SHARING AND IN WHAT FORM? (E.G. RAW, PROCESSED, ANALYZED, FINAL).
@@ -75,7 +66,7 @@ Shared data includes all data forms (raw, processed, analyzed, and final) collec
 
 HAVE YOU CONSIDERED WHAT TYPE OF END-USER LICENSE TO INCLUDE WITH YOUR DATA?
 
-Our team recommends a simple Open Data Commons licenses, specifically Attribution License (OCD-By). This license allows all data collected into Dr. Periwinkle’s database to be accessed by those who needs it.
+Our team recommends a simple Open Data Commons licenses, specifically Attribution License (OCD-By). This license allows all data collected into Dr. Periwinkle’s database to be accessed by those who need it which is in line with her research goals.
 
 WHAT STEPS WILL BE TAKEN TO HELP THE RESEARCH COMMUNITY KNOW THAT YOUR DATA EXISTS?
 
@@ -84,18 +75,14 @@ Our team recommends using emails to institutes and programs with similar researc
 RESPONSIBILITIES AND RESOURCES
 IDENTIFY WHO WILL BE RESPONSIBLE FOR MANAGING THIS PROJECT'S DATA DURING AND AFTER THE PROJECT AND THE MAJOR DATA MANAGEMENT TASKS FOR WHICH THEY WILL BE RESPONSIBLE.
 
-During the duration of the study Dr. Periwinkle’s data will be stored with our research team. A small group of three people will be assigned to look after the data and to make sure that is it kept up to date with what the findings of Dr. Periwinkle's team and ensure that it is organized and saved in appropriate files. By working closely with Dr. Periwinkle, this team will understand the data being collected which will help in organizing it. Each of the three team members of data managers will have their own specific job on the team; collecting the data from Dr. Periwinkle and her team of researchers, including the grad students, one will organize it and upload it onto the new Google Drive files and onto the external hard drives, and the other will be in charge of making sure that everything is consistent and contains the information that should be in each file.  After the study is complete all data will be collected and delivered to DFO. The data will be accessible to the public and other marine wildlife research teams 
+During the duration of the study Dr. Periwinkle’s data will be stored with our research team. A small group of three people will be assigned to look after the data by ensuring it is kept up to date with the latest findings from Dr. Periwinkle's team and carefully organized and saved in appropriate files. Working closely with Dr. Periwinkle and her team will allow the data management team to understand the data being collected, and in turn, this will help organize it. Each of the three team members of data managers will have their own specific job on the team; one person will collect the data from Dr. Periwinkle and her team of researchers, one will organize it and upload it onto the new Google Drive files and onto the external hard drives, and the third person will ensure the consistency and completeness of each file.  After the study is complete all data will be collected and delivered to DFO. The data will be accessible to the public and other marine wildlife research teams 
 HOW WILL RESPONSIBILITIES FOR MANAGING DATA ACTIVITIES BE HANDLED IF SUBSTANTIVE CHANGES HAPPEN IN THE PERSONNEL OVERSEEING THE PROJECT'S DATA, INCLUDING A CHANGE OF PRINCIPAL INVESTIGATOR?
 
-All data is added to Google Drive by Dr. Periwinkle’s team of graduate students. Our team of data managers will add this data to an external hard drive so when any students leave Dr. Periwinkle’s projects, and want to take their data with them, it can be retrieved and re-uploaded to Google Drive. 
-
-Since Dr. Periwinkle has grad students working for her on this project, the data that they collect will be added into the Google Drive documents and the data that they find will be added to the external hard drive and will be sorted by the team of 3 data managers from our company as so that when they leave their data is still with the study. 
-
+All data is added to Google Drive by Dr. Periwinkle’s team of graduate students and our team of data managers will add this data to an external hard drive. Adding Periwinkle’s data to an external hard drive is beneficial for when students inevitably leave Dr. Periwinkle’s team, and decide they want to take their data with them, it can be retrieved and re-uploaded to Google Drive.
 WHAT RESOURCES WILL YOU REQUIRE TO IMPLEMENT YOUR DATA MANAGEMENT PLAN? WHAT DO YOU ESTIMATE THE OVERALL COST FOR DATA MANAGEMENT TO BE?
 
 Resources required include a group of 3 data managers, 4 2TB external hard drives, and a means of storing the hard drives offsite. An estimation of the costs for implementing this five-year data management plan is $907, 250.00.
 
-The estimate for this plan I suspect will be about $907, 250.00 in a five-year time span. This includes the cost of the team of 3 data managers, external hard drives, and the cost of storing those hard drives off site. 
 ETHICS AND LEGAL COMPLIANCE
 LEGAL, ETHICAL, AND INTELLECTUAL PROPERTY ISSUES?
 
@@ -106,6 +93,23 @@ Since Dr. Periwinkle has grad students collecting data for her, a contract shoul
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+References: 
+Question 6: 2018. Dublin Core Metadata Element Set, Version 1.1: Reference Description. 	Dublin Core Metadata Initiative. http://dublincore.org/documents/dces/
+
+Question 17: 2018. Data Manager Salary (Canada). Pay Scale.						 https://www.payscale.com/research/CA/Job=Data_Manager/Salary
 
 
 
